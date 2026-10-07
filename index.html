@@ -3,7 +3,212 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>আমার ব্যক্তিগত ওয়েবসাইট</title>
+    <title>অন্তুর ওয়েবসাইট</title>
+  
+  
+  
+  <style>
+        /* CSS Reset & Global Styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+        }
+
+        body {
+            background-color: #f4f7f6;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        a {
+            text-decoration: none;
+            color: #007bff;
+        }
+
+        /* Header & Navigation Styles */
+        header {
+            background: linear-gradient(135deg, #1e3c72, #2a5298);
+            color: #ffffff;
+            text-align: center;
+            padding: 3rem 1rem 2rem;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+        }
+
+        header p {
+            font-size: 1.1rem;
+            opacity: 0.9;
+            margin-bottom: 1.5rem;
+        }
+
+        nav {
+            background-color: rgba(255, 255, 255, 0.1);
+            display: inline-block;
+            padding: 0.5rem 1.5rem;
+            border-radius: 30px;
+            backdrop-filter: blur(5px);
+        }
+
+        nav a {
+            color: #ffffff;
+            margin: 0 10px;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+
+        nav a:hover {
+            color: #f1c40f;
+        }
+
+        /* Main Container */
+        main {
+            max-width: 900px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+
+        /* Section Cards */
+        section {
+            background: #ffffff;
+            padding: 2rem;
+            margin-bottom: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+        }
+
+        section h2 {
+            color: #1e3c72;
+            margin-bottom: 1rem;
+            border-bottom: 2px solid #eef2f5;
+            padding-bottom: 0.5rem;
+        }
+
+        /* List Styling */
+        ul, ol {
+            margin-left: 1.5rem;
+            margin-top: 0.5rem;
+        }
+
+        li {
+            margin-bottom: 0.5rem;
+        }
+
+        /* Table Styling */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 1rem;
+        }
+
+        th, td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+
+        th {
+            background-color: #1e3c72;
+            color: white;
+        }
+
+        tr:hover {
+            background-color: #f8f9fa;
+        }
+
+        /* Form Styling */
+        .form-group {
+            margin-bottom: 1.2rem;
+        }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 0.5rem;
+            font-weight: 600;
+        }
+
+        .form-group input, 
+        .form-group textarea {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 1rem;
+        }
+
+        .form-group input:focus, 
+        .form-group textarea:focus {
+            outline: none;
+            border-color: #1e3c72;
+        }
+
+        .btn-container {
+            display: flex;
+            gap: 10px;
+        }
+
+        button {
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1rem;
+            font-weight: bold;
+            transition: background 0.3s;
+        }
+
+        button[type="submit"] {
+            background-color: #27ae60;
+            color: white;
+        }
+
+        button[type="submit"]:hover {
+            background-color: #219150;
+        }
+
+        button[type="reset"] {
+            background-color: #e74c3c;
+            color: white;
+        }
+
+        button[type="reset"]:hover {
+            background-color: #c0392b;
+        }
+
+        /* Footer Styling */
+        footer {
+            text-align: center;
+            background-color: #1e3c72;
+            color: white;
+            padding: 1.5rem;
+            margin-top: 3rem;
+        }
+
+        footer a {
+            color: #f1c40f;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 1.8rem;
+            }
+
+            nav a {
+                display: inline-block;
+                margin: 5px;
+            }
+        }
+    </style>
+
+
+
+
+
 </head>
 <body>
 
@@ -11,15 +216,13 @@
     <header>
         <h1>স্বাগতম আমার ওয়েবসাইটে</h1>
         <p>আমি অন্তু - একজন কোডার এবং কনটেন্ট ক্রিয়েটর</p>
-        <hr>
         <nav>
-            <a href="#home">হোম</a> | 
-            <a href="#about">আমার সম্পর্কে</a> | 
-            <a href="#services">সেবাসমূহ</a> | 
-            <a href="#skills">দক্ষতা</a> | 
+            <a href="#home">হোম</a>
+            <a href="#about">আমার সম্পর্কে</a>
+            <a href="#services">সেবাসমূহ</a>
+            <a href="#skills">দক্ষতা</a>
             <a href="#contact">যোগাযোগ</a>
         </nav>
-        <hr>
     </header>
 
     <!-- মূল কনটেন্ট সেকশন -->
@@ -28,49 +231,41 @@
         <!-- হোম / পরিচিতি -->
         <section id="home">
             <h2>হোম</h2>
-            <p>হ্যালো! এটি একটি সাধারণ কিন্তু সম্পূর্ণ ওয়েবসাইট যা শুধুমাত্র বিশুদ্ধ (Pure) HTML দিয়ে তৈরি করা হয়েছে। কোনো প্রকার CSS বা JavaScript এখানে ব্যবহার করা হয়নি।</p>
+            <p>হ্যালো! এটি একটি আধুনিক ওয়েবসাইট যা HTML এবং CSS দিয়ে সাজানো হয়েছে। এটি সব ধরনের ডিভাইস (মোবাইল, ট্যাবলেট ও কম্পিউটার)-এ সুন্দরভাবে দেখা যাবে।</p>
         </section>
-
-        <hr>
 
         <!-- আমার সম্পর্কে -->
         <section id="about">
             <h2>আমার সম্পর্কে</h2>
-            <p>আমি নতুন নতুন টেকনোলজি শিখতে এবং ওয়েবসাইট তৈরি করতে পছন্দ করি।</p>
-            <p>আমার মূল লক্ষ্য হলো সহজ ও কার্যকর ওয়েব অভিজ্ঞতা তৈরি করা।</p>
+            <p>আমি নতুন নতুন টেকনোলজি শিখতে এবং চমৎকার ওয়েবসাইট তৈরি করতে পছন্দ করি।</p>
+            <p>আমার মূল লক্ষ্য হলো ক্লিন কোড এবং সুন্দর ডিজাইনের মাধ্যমে চমৎকার ইউজার এক্সপেরিয়েন্স তৈরি করা।</p>
         </section>
-
-        <hr>
 
         <!-- দক্ষতা -->
         <section id="skills">
             <h2>আমার দক্ষতাসমূহ</h2>
             <ul>
-                <li>HTML5 (Advanced)</li>
+                <li>HTML5 & CSS3</li>
+                <li>Responsive Web Design</li>
                 <li>Problem Solving</li>
                 <li>Content Writing</li>
-                <li>Basic Computer Hardware</li>
             </ul>
         </section>
-
-        <hr>
 
         <!-- সেবাসমূহ -->
         <section id="services">
             <h2>সেবাসমূহ (Services)</h2>
             <ol>
-                <li>ওয়েবসাইট লেআউট ডিজাইন</li>
-                <li>কনটেন্ট রাইটিং</li>
-                <li>ডাটা এন্ট্রি</li>
+                <li>ওয়েবসাইট লেআউট ও রেসপন্সিভ ডিজাইন</li>
+                <li>ফ্রন্টএন্ড ডেভেলপমেন্ট</li>
+                <li>কনটেন্ট রাইটিং ও কাস্টমাইজেশন</li>
             </ol>
         </section>
-
-        <hr>
 
         <!-- টেবিল সেকশন (প্রজেক্ট তালিকা) -->
         <section id="projects">
             <h2>আমার সাম্প্রতিক প্রজেক্টসমূহ</h2>
-            <table border="1" cellpadding="8" cellspacing="0">
+            <table>
                 <thead>
                     <tr>
                         <th>প্রজেক্টের নাম</th>
@@ -81,46 +276,42 @@
                 <tbody>
                     <tr>
                         <td>ব্যক্তিগত পোর্টফোলিও</td>
-                        <td>HTML</td>
+                        <td>HTML, CSS</td>
                         <td>সম্পন্ন</td>
                     </tr>
                     <tr>
                         <td>ব্লগ ওয়েবসাইট</td>
-                        <td>HTML</td>
+                        <td>HTML, CSS</td>
                         <td>চলমান</td>
                     </tr>
                 </tbody>
             </table>
         </section>
 
-        <hr>
-
         <!-- যোগাযোগ সেকশন (ফরমসহ) -->
         <section id="contact">
             <h2>যোগাযোগ করুন</h2>
             <form action="#" method="post">
-                <p>
-                    <label for="name">নাম:</label><br>
+                <div class="form-group">
+                    <label for="name">নাম:</label>
                     <input type="text" id="name" name="name" placeholder="আপনার নাম লিখুন" required>
-                </p>
-                <p>
-                    <label for="email">ইমেইল:</label><br>
+                </div>
+                <div class="form-group">
+                    <label for="email">ইমেইল:</label>
                     <input type="email" id="email" name="email" placeholder="আপনার ইমেইল লিখুন" required>
-                </p>
-                <p>
-                    <label for="message">বার্তা:</label><br>
-                    <textarea id="message" name="message" rows="5" cols="30" placeholder="আপনার বার্তা লিখুন..."></textarea>
-                </p>
-                <p>
+                </div>
+                <div class="form-group">
+                    <label for="message">বার্তা:</label>
+                    <textarea id="message" name="message" rows="5" placeholder="আপনার বার্তা লিখুন..."></textarea>
+                </div>
+                <div class="btn-container">
                     <button type="submit">পাঠিয়ে দিন</button>
                     <button type="reset">রিসেট করুন</button>
-                </p>
+                </div>
             </form>
         </section>
 
     </main>
-
-    <hr>
 
     <!-- ফুটার সেকশন -->
     <footer>
